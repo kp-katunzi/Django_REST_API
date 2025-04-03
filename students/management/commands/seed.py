@@ -39,7 +39,10 @@ class Command(BaseCommand):
             {"name": "computer theory", "year": 2},
             {"name": "Android", "year": 3},
             {"name": "Cloud computing", "year": 4},
-            {"name": "Cloud computing", "year": 4},
+            {"name": "Intro to Software", "year": 1},
+            {"name": "computer theory", "year": 2},
+            {"name": "Linux", "year": 3},
+            {"name": "System Development", "year": 4},
         ]
         for subject in subjects:
             Subject.objects.create(**subject)
